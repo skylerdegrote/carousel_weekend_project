@@ -19,7 +19,7 @@
     margin: 0;
 }
 .cardFooter {
-    border-bottom: 5px solid black;
+    border: 5px solid black;
     border-radius: 0 0 25px 25px;
     background-color: #66c298;
     color: white;
@@ -33,7 +33,7 @@
 /*}*/
 .allClassmatesContainer{
     border: 5px solid black;
-    border-radius: 25px 25px ;
+    border-radius: 25px 25px 0 0;
     height:600px;
 }
 
@@ -62,7 +62,7 @@ h1{
 }
 h2{
     margin-left:20px;
-
+    /*height:50px;*/
 }
 /*.description{*/
     /*border-radius: 0;*/
@@ -78,8 +78,10 @@ h2{
 }
 .showStudent{
     display: block;
+    height:600px;
 }
 p{
+    height:100px;
     padding:20px;
     margin-left:20px;
 }
@@ -98,4 +100,9 @@ p{
     float: left;
     width:100px;
     margin:30px;
+}
+.shoutOut{
+    height:50px;
+    padding-top:50px;
+    padding-bottom:30px;
 }

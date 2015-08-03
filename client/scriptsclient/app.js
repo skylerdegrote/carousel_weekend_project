@@ -20,10 +20,10 @@ $(document).ready(function() {
                 $(".allClassmatesContainer").append("<div class = 'indvStudent'></div>");//appending to div on index
                 var student = $(".allClassmatesContainer").children().last();//student is "last child" on the card
 
-                student.append("<h1 class='name'>Hello My Name is: "+this.name+"</h1>");
-                student.append("<h2 class='description'>A little about me: <br></h2><p>"+this.desc+"</p>");
-                student.append("<h2 class='shoutOut'>A little thanks to me: <br></h2><p>"+this.thanks+"</p>");
-                student.append("<div class='cardFooter'><button class='prev'>Previous</button><button class='next'>Next</button></div>");
+                student.append("<h1 class='name'>Hello My Name is: "+this.name+"</h1>").css("height", "700px");
+                student.append("<h2 class='description'>A little about me: <br></h2><p>"+this.desc+"</p>").css("height", "700px");
+                student.append("<h2 class='shoutOut'>A little thanks to me: <br></h2><p>"+this.thanks+"</p>").css("height", "700px");
+                //student.append("<div class='cardFooter'><button class='prev'>Previous</button><button class='next'>Next</button></div>").css("height", "700px");
 
 
             });
